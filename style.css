@@ -1,0 +1,53 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+.accordion-item {
+    width: 70%;
+}
+.w-30px-r-5px {
+    border-radius: 5px;
+    width: 60px;
+}
+
+.card-body.text-center {
+    border: 2px #ffc107 solid;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.card-body.text-center:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0);
+    background-color: #ffc107;
+}
+
+.col-md.mb-5 {
+    transition: all 0.5s;
+}
+
+.col-md.mb-5:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Product Pro', sans-serif;
+    background: #fff;
+    background-size: 100%;
+    text-align: center;
+}
+
+.title {
+    background-color: rgba(255, 198, 83, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    color: #fff;
+}
